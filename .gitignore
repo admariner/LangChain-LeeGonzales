@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+
+# Claude Code local config (may contain API keys)
+.claude/
+
+# Beads issue tracker (local database)
+.beads/
+
+# Jupyter
+.ipynb_checkpoints/
